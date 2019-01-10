@@ -5,7 +5,7 @@
 using System.ComponentModel;
 using Xamarin.Forms;
 
-namespace TestSwitchLabel
+namespace MedusaDemo
 {
     public partial class MainPage : ContentPage
     {

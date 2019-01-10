@@ -1946,7 +1946,7 @@ namespace TestSwitchLabel.Droid
 			public const int fastscroll_margin = 2131165185;
 			
 			// aapt resource value: 0x7f070002
-			public const int fastscroll__range = 2131165186;
+			public const int fastscroll_minimum_range = 2131165186;
 			
 			// aapt resource value: 0x7f07005b
 			public const int highlight_alpha_material_colored = 2131165275;

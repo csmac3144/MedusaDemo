@@ -5,15 +5,16 @@ using System.Text;
 
 using Xamarin.Forms;
 
-namespace TestSwitchLabel
+namespace MedusaDemo
 {
     public partial class App : Application
     {
+        public const string MainUrl = "http://t4g-medusa.azurewebsites.net/api/values";
         public App()
         {
             InitializeComponent();
 
-            MainPage = new TestSwitchLabel.MainPage();
+            MainPage = new MedusaDemo.MainPage();
         }
 
         protected override void OnStart()

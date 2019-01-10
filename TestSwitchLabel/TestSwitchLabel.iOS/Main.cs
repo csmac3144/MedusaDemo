@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace TestSwitchLabel.iOS
+namespace MedusaDemo.iOS
 {
     public class Application
     {

@@ -1,24 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TestSwitchLabel.MedusaButtonGroup">
+             x:Class="MedusaDemo.MedusaButtonGroup">
   <ContentView.Content>
         <FlexLayout x:Name="buttonLayout" AlignItems="Stretch" BackgroundColor="White"
                     JustifyContent="SpaceEvenly" Wrap="Wrap">
                 <ContentView Padding="4">
-                    <Button x:Name="buttonA" Text="Click A" WidthRequest="200" HeightRequest="100"
+                    <Button x:Name="buttonA" Text="Click A" WidthRequest="160" BackgroundColor="Silver"
+                            TextColor="Black"
                         FontSize="Large" IsEnabled="false" IsVisible="false" Clicked="ButtonInstanceA_Clicked" />
             </ContentView>
             <ContentView Padding="4">
-                    <Button x:Name="buttonB" Text="Click B" WidthRequest="200" HeightRequest="100"
+                <Button x:Name="buttonB" Text="Click B" WidthRequest="160" BackgroundColor="Silver"
+                            TextColor="Black"
                             FontSize="Large" IsEnabled="false" IsVisible="false" Clicked="ButtonInstanceB_Clicked" />
             </ContentView>
             <ContentView Padding="4">
-                    <Button x:Name="buttonC" Text="Click C" WidthRequest="200" HeightRequest="100"
+                <Button x:Name="buttonC" Text="Click C" WidthRequest="160" BackgroundColor="Silver"
+                            TextColor="Black"
                             FontSize="Large" IsEnabled="false" IsVisible="false" Clicked="ButtonInstanceC_Clicked" />
             </ContentView>
             <ContentView Padding="4">
-                    <Button x:Name="buttonD" Text="Click D" WidthRequest="200" HeightRequest="100"
+                <Button x:Name="buttonD" Text="Click D" WidthRequest="160" BackgroundColor="Silver"
+                            TextColor="Black"
                             FontSize="Large" IsEnabled="false" IsVisible="false" Clicked="ButtonInstanceD_Clicked" />
             </ContentView>
         </FlexLayout>

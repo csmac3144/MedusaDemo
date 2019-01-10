@@ -5,7 +5,7 @@
 using System;
 using Xamarin.Forms;
 
-namespace TestSwitchLabel
+namespace MedusaDemo
 {
     public partial class SwichLabelControl : ContentView
     {

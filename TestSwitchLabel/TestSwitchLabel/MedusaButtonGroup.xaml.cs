@@ -3,7 +3,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace TestSwitchLabel
+namespace MedusaDemo
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MedusaButtonGroup : ContentView
