@@ -1,0 +1,34 @@
+﻿{
+  "ButtonGroups": [
+    {
+      "RadioBehavior": false,
+      "TriState": false,
+      "Captions": [ "Respiration", "Pulse" ]
+    },
+    {
+      "RadioBehavior": true,
+      "TriState": false,
+      "Captions": [ "Low", "Medium", "High" ]
+    },
+    {
+      "RadioBehavior": false,
+      "TriState": true,
+      "Captions": [ "Allergic", "Hypotensive", "Shock", "Ambulatory" ]
+    },
+    {
+      "RadioBehavior": true,
+      "TriState": false,
+      "Captions": [ "Infant", "Child", "Adult", "Elderly" ]
+    },
+    {
+      "RadioBehavior": false,
+      "TriState": false,
+      "Captions": [ "Blood Type", "Height", "Weight", "Category" ]
+    },
+    {
+      "RadioBehavior": true,
+      "TriState": false,
+      "Captions": [ "Red", "Yellow", "Green" ]
+    }
+  ]
+}

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using Newtonsoft.Json;
 
 namespace MedusaWeb.Controllers
 {
@@ -32,12 +33,12 @@ namespace MedusaWeb.Controllers
         }
 
         // POST api/values
-        public void Post([FromBody]object value)
+        public void Post([FromBody]FunctionGroup value)
         {
             var folder = Environment.GetFolderPath(System.Environment.SpecialFolder.CommonApplicationData);
             var filePath = Path.Combine(folder, "medusa.json");
 
-            System.IO.File.WriteAllText(filePath, value.ToString());
+            System.IO.File.WriteAllText(filePath, JsonConvert.SerializeObject(value));
         }
 
         //// PUT api/values/5
