@@ -12,7 +12,7 @@ namespace MedusaDemo
     {
         public const string MainUrl = "http://t4g-medusa.azurewebsites.net/api/values";
 
-        public FunctionGroup FunctionGroups { get; private set; }
+        public static FunctionGroup FunctionGroups { get; private set; }
 
         public App()
         {
@@ -40,9 +40,6 @@ namespace MedusaDemo
                 try
                 {
                     json = await WebClient.GetButtonData();
-                    json = json.Replace("\\n", "");
-                    json = json.Replace("\\r", "");
-                    json = json.Replace("\\", "");
                     grps = JsonConvert.DeserializeObject<FunctionGroup>(json);
                 }
                 catch (Exception ex)
